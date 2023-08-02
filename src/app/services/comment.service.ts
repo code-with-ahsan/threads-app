@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable, inject } from '@angular/core';
-import { environment } from '../environmen';
 import { Comment } from '../interfaces/comment.interface';
+import { environment } from 'src/environments/environment';
 
 type CreateCommentDto = {
   parentId?: string;
